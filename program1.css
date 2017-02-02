@@ -1,0 +1,150 @@
+
+.bodybackground {
+    background-color: tan;
+}
+.recip {
+	background-color: #FFCC00;
+}
+
+
+section {
+	padding: 5px;
+}
+.padleft {
+	padding-left: 5px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    width:100%;
+}
+td {
+    text-align: left;
+    padding: 8px;
+    border: 2px solid white;
+    background-color: #CC9933;
+}
+th {
+	text-align: center;
+    padding: 8px;
+    border: 2px solid white;
+}
+th.head {
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    color: #A4A400;
+    background-color: white;
+}
+
+th.head1 {
+    font-family: arial, sans-serif;
+    font-size: 35px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    color: #A4A400;
+    background-color: cornsilk;
+}
+
+th.ingredient {
+    font-family: arial, sans-serif;
+    font-size: 25px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    color: #A4A400;
+    background-color: cornsilk;
+}
+td.home {
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+    text-align: left;
+}
+.coloring {
+	background-color: #003366;
+}
+.fullwidth {
+	width:100%;
+}
+.halfwidth {
+	width:50%;
+}
+.widther {
+	width:80%;
+}
+.colored {
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color:green;
+    color: green;
+}
+
+li a:hover:not(.active) {
+    background-color: #A4A400;
+    
+}
+
+div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+div li {
+    float: left;
+}
+
+.container {
+    position: relative;
+}
+
+.left {
+   position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-family: Comic sans-serif;
+    color: green;
+}
+
+.topimg { 
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
+
+.mynav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: peru;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.floatright {
+    float: right;
+    margin-right:15px;
+    border-radius: 88px;
+}
